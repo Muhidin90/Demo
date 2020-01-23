@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         btnSignUp.setOnClickListener(new View.onclickListner(){
 public void onclick(View v) {
     string email = emailId.getText().toString();
+    //this is test comment
     string pwd = password.getText().toString();
     if (email.isEmpty()) {
          emailId.setError("Please anter email id ");
